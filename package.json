@@ -1,0 +1,29 @@
+{
+  "name": "parcel-transformer-hbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parcel",
+    "parcel-transformer",
+    "handlebars",
+    "hbs",
+    "plugin"
+  ],
+  "author": "Paulo Alves",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/plugin": "^2.5.0",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
