@@ -31,9 +31,8 @@ For example, you can set local variables using `.hbsrc`.
 
 ```json
 {
-  "locals": {
-    "firstname": "Paulo"
-  }
+    "firstname": "Paulo",
+    "lastname": "Alves"
 }
 ```
 

@@ -1,6 +1,6 @@
 {
-  "name": "parcel-transformer-hbs",
-  "version": "1.1.0",
+  "name": "parcel-transformer-handlebars",
+  "version": "1.1.1",
   "description": "Parcel v2 transformer plugin for Handlebars.",
   "main": "lib/index.js",
   "engines": {
