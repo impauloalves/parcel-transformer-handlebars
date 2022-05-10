@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-npm i -D parcel-transformer-hbs
+npm i -D parcel-transformer-handlebars
 ```
 
 ## Configuration
@@ -17,7 +17,7 @@ npm i -D parcel-transformer-hbs
   ],
   "transformers": {
     "*.hbs": [
-      "parcel-transformer-hbs"
+      "parcel-transformer-handlebars"
     ]
   }
 }
@@ -31,9 +31,8 @@ For example, you can set local variables using `.hbsrc`.
 
 ```json
 {
-  "locals": {
-    "firstname": "Paulo"
-  }
+    "firstname": "Paulo",
+    "lastname": "Alves"
 }
 ```
 
