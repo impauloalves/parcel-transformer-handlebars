@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-npm i -D parcel-transformer-hbs
+npm i -D parcel-transformer-handlebars
 ```
 
 ## Configuration
@@ -17,7 +17,7 @@ npm i -D parcel-transformer-hbs
   ],
   "transformers": {
     "*.hbs": [
-      "parcel-transformer-hbs"
+      "parcel-transformer-handlebars"
     ]
   }
 }
