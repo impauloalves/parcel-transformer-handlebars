@@ -1,7 +1,7 @@
 {
   "name": "parcel-transformer-hbs",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Parcel v2 transformer plugin for Handlebars.",
   "main": "lib/index.js",
   "engines": {
     "node": ">= 12.0.0",
@@ -17,13 +17,22 @@
     "hbs",
     "plugin"
   ],
-  "author": "Paulo Alves",
-  "license": "ISC",
+  "author": "Paulo Alves <impauloalves@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/impauloalves/parcel-transformer-hbs"
+  },
+  "bugs": {
+    "url": "https://github.com/impauloalves/parcel-transformer-hbs/issues"
+  },
+  "homepage": "https://github.com/impauloalves/parcel-transformer-hbs/blob/master/README.md",
   "dependencies": {
     "@parcel/plugin": "^2.5.0",
     "handlebars": "^4.7.7"
   },
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "prettier": "2.6.2"
   }
 }
